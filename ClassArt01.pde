@@ -1,6 +1,6 @@
 // Class Created Artwork - AP Computer Science Principles, 6th Period, Stadium High School, 2016-2017
-float x1=0;
-int x = 250; //x coord
+float x=0;
+int x1 = 250; //x coord
 int y = 10; //y coord
 int xspeed = 3; 
 int yspeed = 3;
@@ -11,9 +11,9 @@ void setup(){
 }
 
 void draw(){
-  x1=x1+.01;
+  x=x+.01;
   fill(int(random(255)),random(255),random(255));
-  ellipse(x, y, 10+x1, 10+x1);
+  ellipse(x1, y, 10+x, 10+x);
   xychange();
   if(mousePressed){
  
